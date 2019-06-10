@@ -1,0 +1,32 @@
+body {
+  background: #811e1c;
+}
+
+.logo {
+  width: 300px;
+  height: 90px;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 30px;
+  width: 180px;
+  padding-top: 25px;
+  font-size: 24px;
+  border-top: 1px solid white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
