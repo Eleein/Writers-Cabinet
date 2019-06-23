@@ -46,17 +46,23 @@ h1 {
     justify-content: center;
 }
 
-.about-us {
+.about-us-section {
+    padding-left: 145px;
+    padding-top: 110px;
     background-color: #fff;
+}
+
+.about-us {
     display: flex;
     justify-content: space-between;
-    padding-left: 145px;
+    align-items: flex-start;
 }
 
 .about-us-title {
     color: #811e1c;
     font-size: 60px;
     white-space: nowrap;
+    margin: 0;
 }
 
 .about-us-content {
