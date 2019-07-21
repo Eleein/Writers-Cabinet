@@ -78,3 +78,29 @@ h1 {
     display: flex;
     justify-content: space-evenly;
 }
+
+.contact-us {
+    background: #404041;
+    padding-left: 145px;
+}
+.reach-out {
+    color: white;
+    font-size: 60px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.input-label {
+    visibility: hidden;
+    position: absolute;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 20px;
+}
