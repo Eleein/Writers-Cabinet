@@ -69,3 +69,12 @@ h1 {
     margin-left: 120px;
     margin-right: 120px;
 }
+
+.staff-pictures {
+    width: 250px;
+    length: 200px;
+}
+.the-team {
+    display: flex;
+    justify-content: space-evenly;
+}
