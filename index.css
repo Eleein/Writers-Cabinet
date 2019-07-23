@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@font-face {
+    font-family: "Libre Caslon";
+    src: url("fonts/librecaslontext-regular.woff") format("opentype");
+}
+
+@font-face {
+    font-family: "Libre Caslon";
+    font-weight: bold;
+    src: url("fonts/librecaslontext-bold.woff") format("opentype");
+}
 
 body {
     background: #811e1c;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Caslon', serif;
     margin: 0;
 }
 
@@ -81,13 +90,18 @@ h1 {
 
 .contact-us {
     background: #404041;
-    padding-left: 145px;
+    padding: 50px 0 50px 145px;
 }
 .reach-out {
     color: white;
     font-size: 60px;
     white-space: nowrap;
     margin: 0;
+}
+
+.reach-out-container {
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .input-label {
@@ -103,4 +117,8 @@ form {
 
 input {
     margin-bottom: 20px;
+}
+
+.contact-email {
+    color: #fff;
 }
