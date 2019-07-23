@@ -51,8 +51,7 @@ h1 {
 }
 
 .tag-line {
-    display: flex;
-    justify-content: center;
+   margin-left: 135px;
 }
 
 .about-us-section {
@@ -75,8 +74,8 @@ h1 {
 }
 
 .about-us-content {
-    margin-left: 120px;
-    margin-right: 120px;
+    font-family: Arial, sans-serif;
+    margin: 0 120px 60px 120px;
 }
 
 .staff-pictures {
@@ -86,6 +85,8 @@ h1 {
 .the-team {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 120px;
+    padding-bottom: 50px;
 }
 
 .contact-us {
