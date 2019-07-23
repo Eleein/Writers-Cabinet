@@ -27,15 +27,22 @@ body {
 .navigation a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
 }
 
 .navigation li {
     display: inline-block;
     margin-right: 30px;
     width: 180px;
-    padding-top: 25px;
+    padding-top: 10px;
     font-size: 24px;
     border-top: 1px solid white;
+    position: relative;
+    top: -15px;
 }
 
 header {
@@ -76,6 +83,12 @@ h1 {
 .about-us-content {
     font-family: Arial, sans-serif;
     margin: 0 120px 60px 120px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.about-us-content p {
+    width: 85%;
 }
 
 .staff-pictures {
