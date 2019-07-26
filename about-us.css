@@ -53,7 +53,7 @@ header {
 
 h1 {
     color: #fff;
-    font-size: 55px;
+    font-size: 75px;
     text-align: left;
 }
 
@@ -68,17 +68,21 @@ h1 {
 }
 
 .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .about-us-title {
     color: #811e1c;
-    font-size: 40px;
+    font-size: 60px;
     white-space: nowrap;
     margin: 0;
 }
 
 .about-us-content {
     font-family: Arial, sans-serif;
+    margin: 0 120px 50px 120px;
     line-height: 1.5;
     text-align: justify;
 }
@@ -87,12 +91,8 @@ h1 {
     width: 85%;
 }
 
-.about-us-content p:last-child {
-    margin-bottom: 70px;
-}
-
-.about-us-photos h2 {
-    font-size: 15px;
+.about-us-photos {
+    margin-left: 390px;
 }
 
 .staff-pictures {
@@ -115,7 +115,7 @@ h1 {
 
 .reach-out {
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     white-space: nowrap;
     margin: 0;
 }
@@ -142,46 +142,4 @@ input {
 
 .contact-email {
     color: #fff;
-    font-size: 12px;
-}
-
-@media (min-width: 992px) {
-    h1 {
-        font-size: 75px;
-    }
-
-    .about-us {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .about-us-title {
-        font-size: 60px;
-    }
-
-    .about-us-content {
-        margin: 0 120px 50px 120px;
-        line-height: 1.5;
-        text-align: justify;
-    }
-
-    .reach-out {
-        font-size: 60px;
-    }
-
-    .reach-out-container {
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-
-    .about-us-photos h2 {
-        font-size: 40px;
-    }
-}
-
-@media (min-width: 1360px) {
-    .about-us-photos {
-        margin-left: 390px;
-    }
 }
